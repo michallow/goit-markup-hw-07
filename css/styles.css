@@ -941,10 +941,11 @@ body {
 }
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen and (max-width: 767px) {
+
+@media (max-width: 767px) {
   body {
     width: 428px;
-}
+  }
 
   .tag-line {
     background-color: var(--color-navy-blue);

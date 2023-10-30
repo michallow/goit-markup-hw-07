@@ -1316,13 +1316,15 @@ body {
   }
 
   .customer-list {
+    display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 16px;
     list-style: none;
+    justify-content: center;
   }
 
   .customer-list-item {
-    width: 50%;
+    width: calc((100% - 120px) / 2);
     height: 88px;
   }
 

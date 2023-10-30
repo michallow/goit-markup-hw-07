@@ -134,12 +134,12 @@ body {
     display: block;
     margin: 0 auto;
     padding-bottom: 72px;
-    max-width: 428px;
     max-height: 432px;
     flex-shrink: 0;
   }
 
   .container-txt {
+    max-width: 428px;
     margin: 0 auto;
     padding: 0;
   }

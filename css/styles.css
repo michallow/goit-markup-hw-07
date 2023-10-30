@@ -4,12 +4,6 @@
   padding: 0;
 }
 
-@media (min-width: 320px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
 :root {
   --color-white: #ffffff;
   --color-iris: #4d5ae5;
@@ -944,28 +938,4 @@ body {
 
 .form-icon-check {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mobile-menu {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: none;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.mobile-list-address {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: none;
-  padding: 10px;
-  text-decoration: none;
-}
-
-@media (max-width: 480px) {
-  .mobile-menu {
-    display: block;
-  }
 }

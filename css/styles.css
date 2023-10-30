@@ -942,13 +942,6 @@ body {
 
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (max-width: 767px) {
-  .paragraph-footer {
-    line-height: 1.5;
-    color: var(--color-cloud);
-    letter-spacing: 0.02em;
-    min-width: 264px;
-  }
-
   .tag-line {
     background-color: var(--color-navy-blue);
     background-image: linear-gradient(
@@ -1194,24 +1187,6 @@ body {
     font-weight: 400;
   }
 
-  .footer-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-iris);
-    text-decoration: none;
-    margin-bottom: 16px;
-    display: inline-block;
-  }
-
-  .footer-link:hover,
-  .footer-link:focus {
-    color: var(--color-ocean);
-  }
-
   .portfolio-all {
     padding: 96px 0 120px 0;
   }
@@ -1325,7 +1300,7 @@ body {
   }
 
   .customer-list-item {
-    width: calc((100% - 120px) / 2);
+    width: calc((100% - 48px) / 2);
     height: 88px;
   }
 
@@ -1349,6 +1324,31 @@ body {
   .customer-list-item-link:focus {
     color: var(--color-ocean);
     border-color: var(--color-ocean);
+  }
+
+  .footer-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
+    text-decoration: none;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+
+  .footer-link:hover,
+  .footer-link:focus {
+    color: var(--color-ocean);
+  }
+
+  .paragraph-footer {
+    line-height: 1.5;
+    color: var(--color-cloud);
+    letter-spacing: 0.02em;
+    min-width: 264px;
   }
 
   .container-social-media {

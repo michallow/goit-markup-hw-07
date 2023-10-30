@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+@media (min-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 :root {
   --color-white: #ffffff;
   --color-iris: #4d5ae5;

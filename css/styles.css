@@ -1019,7 +1019,7 @@ body {
   }
 
   .container {
-    width: 1158px;
+    width: auto;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -1157,6 +1157,7 @@ body {
     flex-direction: column;
     gap: 24px;
     padding: 0px;
+    text-align: center;
   }
 
   .section-team-list-item {
@@ -1315,13 +1316,13 @@ body {
   }
 
   .customer-list {
-    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     list-style: none;
   }
 
   .customer-list-item {
-    width: calc((100% - 120px) / 6);
+    width: 50%;
     height: 88px;
   }
 
@@ -1330,7 +1331,6 @@ body {
     height: 100%;
     border: 1px solid var(--color-light-slate);
     border-radius: 4px;
-    display: flex;
     align-items: center;
     justify-content: center;
     color: var(--color-light-slate);
@@ -1704,23 +1704,4 @@ body {
     fill: var(--color-cloud);
     border: none;
   }
-}
-
-/* ================================================= MOBILE 👇 ========================================= */
-@media screen and (max-width: 767px) {
-  /* cały kod */
-}
-/* ================================================= TABLET 👇 ========================================= */
-@media screen and (min-width: 768px) {
-  /* cały kod */
-}
-/* ================================================= NOT DESKTOP 👇 ========================================= */
-@media screen and (max-width: 1157px) {
-  .icon-container {
-    display: none;
-  }
-}
-/* ================================================= DESKTOP 👇 ========================================= */
-@media screen and (min-width: 1158px) {
-  /* co jest potrzebne dla desktopu */
 }

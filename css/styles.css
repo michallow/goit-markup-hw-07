@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 340px) {
   body {
-    overflow-x: none;
+    overflow-x: hidden;
   }
 }
 
@@ -1257,7 +1257,7 @@ body {
   }
 
   .container-social-media {
-    width: 1158px;
+    width: 428px;
     margin: 0 auto;
     padding: 0 15px;
   }

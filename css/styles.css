@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 340px) {
   body {
-    overflow-x: hidden;
+    overflow-x: none;
   }
 }
 
@@ -1262,13 +1262,7 @@ body {
     }
 
     .icon-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 112px;
-      background-color: var(--color-cloud);
-      border-radius: 4px;
-      margin-bottom: 8px;
+      display: none;
     }
 
     .social-media {
@@ -1721,7 +1715,7 @@ body {
 }
 /* ================================================= NOT DESKTOP 👇 ========================================= */
 @media screen and (max-width: 1157px) {
-  .icon-features {
+  .icon-container {
     display: none;
   }
 }

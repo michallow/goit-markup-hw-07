@@ -950,12 +950,8 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-.mobile-menu .link {
-  display: block;
+  display: none;
   padding: 10px;
-  color: #fff;
   text-decoration: none;
 }
 
@@ -963,11 +959,13 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+  display: none;
+  padding: 10px;
+  text-decoration: none;
 }
 
-.mobile-list-address .link {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
+@media (max-width: 480px) {
+  .mobile-menu {
+    display: block;
+  }
 }

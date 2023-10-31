@@ -1136,3 +1136,209 @@ body {
     width: 398px;
   }
 }
+
+/* ================================================= TABLET 👇 ========================================= */
+@media screen and (min-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+
+  .navigation-bar-elements {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 0 120px 0 16px;
+  }
+
+  .list-address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 12px;
+  }
+
+  .address {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+  }
+
+  .tag-line-header {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+  }
+
+  .container-txt {
+    max-width: 496px;
+    margin: 0 136px;
+    padding: 0;
+  }
+
+  .navigation-bar-container {
+    width: 768px;
+    height: 72px;
+  }
+
+  .container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .values-section {
+    padding: 96px 0;
+    display: flex;
+    margin: 0 16px;
+  }
+
+  .values-main-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 72px;
+  }
+
+  .icon-container {
+    display: none;
+  }
+
+  .goals {
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .single-value {
+    width: 100%;
+  }
+
+  .values-list {
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .what-we-do {
+    display: none;
+  }
+
+  .section-team {
+    padding: 96px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-team-header {
+    font-weight: 700;
+    margin-bottom: 72px;
+  }
+
+  .section-team-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-team-list-item {
+    width: 264px;
+    margin-bottom: 72px;
+  }
+
+  .employee-container {
+    padding: 32px 0px;
+  }
+
+  .our-customers {
+    padding: 96px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customers-header {
+    margin: 0 0 72px 0;
+    text-align: center;
+  }
+
+  .customer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 16px;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .customer-list-item {
+    width: calc((100% - 16px) / 2);
+  }
+
+  .customer-list-item-link {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .logo-n-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  .footer-link {
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+
+  .footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container-social-media {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 72px;
+  }
+
+  .social-media-footer {
+    margin-bottom: 16px;
+    margin-top: 72px;
+  }
+
+  .social-media-footer-link {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscribe-input {
+    width: 398px;
+  }
+}

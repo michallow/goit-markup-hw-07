@@ -1211,10 +1211,15 @@ body {
   }
 
   .values-main-list {
+    list-style: none;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    gap: 24px;
+    padding: 0px;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    row-gap: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .icon-container {
@@ -1227,7 +1232,7 @@ body {
   }
 
   .single-value {
-    width: 100%;
+    width: calc((100% - 16px) / 2);
   }
 
   .values-list {

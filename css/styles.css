@@ -1196,6 +1196,8 @@ body {
   .logo-n-paragraph {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0px;
   }
 
   .footer-link {
@@ -1221,7 +1223,7 @@ body {
   .container-social-media {
     width: 428px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 16px;
   }
 
   .social-media-footer {
@@ -1258,7 +1260,7 @@ body {
   .subscribe-form {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 16px;
   }
 
   .subscribe-input {

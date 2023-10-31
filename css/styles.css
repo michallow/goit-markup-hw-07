@@ -1296,7 +1296,7 @@ body {
   }
 
   .customer-list-item {
-    width: calc((100% - 16px) / 2);
+    width: calc((100% - 16px) / 4);
   }
 
   .customer-list-item-link {

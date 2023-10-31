@@ -1384,6 +1384,10 @@ body {
 
   .subscribe-form {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
     gap: 24px;
   }
 

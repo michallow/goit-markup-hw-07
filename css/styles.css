@@ -1143,9 +1143,19 @@ body {
     min-width: 768px;
   }
 
+  .navigation-bar {
+    padding: auto 16px;
+  }
+
   .navigation-bar-elements {
     display: flex;
     align-items: center;
+  }
+
+  .navigation-bar-container {
+    width: 768px;
+    height: 72px;
+    gap: 121px;
   }
 
   .logo {
@@ -1167,6 +1177,13 @@ body {
     letter-spacing: 0.48px;
   }
 
+  .tag-line {
+    width: auto;
+    height: 436px;
+    display: flex;
+    align-items: center;
+  }
+
   .tag-line-header {
     font-size: 56px;
     font-style: normal;
@@ -1177,13 +1194,8 @@ body {
 
   .container-txt {
     max-width: 496px;
-    margin: 0 136px;
+    margin: 121px 136px 204px;
     padding: 0;
-  }
-
-  .navigation-bar-container {
-    width: 768px;
-    height: 72px;
   }
 
   .container {

@@ -1219,7 +1219,7 @@ body {
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   .icon-container {
@@ -1232,7 +1232,10 @@ body {
   }
 
   .single-value {
-    width: calc((100% - 16px) / 2);
+    width: calc((100% - 10px) / 2);
+    max-width: 356px;
+    padding: 0 5px;
+    box-sizing: border-box;
   }
 
   .values-list {

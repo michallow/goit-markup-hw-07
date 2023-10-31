@@ -1210,6 +1210,7 @@ body {
     color: var(--color-cloud);
     letter-spacing: 0.02em;
     min-width: 264px;
+    margin-bottom: 72px;
   }
 
   .footer-flex {
@@ -1222,8 +1223,14 @@ body {
 
   .container-social-media {
     width: 428px;
-    margin: 0 auto;
     padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 72px;
   }
 
   .social-media-footer {
@@ -1245,6 +1252,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     row-gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .subscribe-input {

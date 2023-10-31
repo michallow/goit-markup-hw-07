@@ -998,7 +998,7 @@ body {
   }
 
   .navigation-bar-container {
-    width: 1158px;
+    width: 428px;
     height: 70px;
   }
 
@@ -1203,7 +1203,7 @@ body {
   }
 
   .customer-list-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 32px) / 2);
     height: 88px;
   }
 

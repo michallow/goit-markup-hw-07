@@ -944,7 +944,7 @@ body {
 
 @media (max-width: 767px) {
   body {
-    width: 428px;
+    max-width: 428px;
   }
 
   .navigation-bar-elements {

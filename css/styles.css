@@ -976,7 +976,7 @@ body {
 
   .container-txt {
     max-width: 428px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
 
@@ -1221,21 +1221,18 @@ body {
 
   .footer-section {
     width: 428px;
-    display: flex;
     padding: 100px 0;
+    text-align: center;
+    align-content: center;
+    align-items: center;
   }
 
-  .footer-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-iris);
-    text-decoration: none;
-    margin-bottom: 16px;
-    display: inline-block;
+  .logo-n-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
   }
 
   .paragraph-footer {
@@ -1246,6 +1243,7 @@ body {
   }
 
   .footer-flex {
+    width: 428px;
     display: block;
     align-items: center;
   }

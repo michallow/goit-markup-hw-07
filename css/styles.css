@@ -1090,7 +1090,7 @@ body {
   }
 
   .container {
-    width: auto;
+    width: 396px;
     margin: 0 auto;
     padding: 0 16px;
   }
@@ -1317,13 +1317,12 @@ body {
   }
 
   .container-txt {
-    /* max-width: 496px; */
     margin: 121px 136px 204px;
     padding: 0;
   }
 
   .container {
-    width: auto;
+    width: 736px;
     margin: 0;
     padding: 0;
   }

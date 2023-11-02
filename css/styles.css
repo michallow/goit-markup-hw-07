@@ -338,7 +338,7 @@ body {
   margin-bottom: 8px;
 }
 
-.what-we-do {
+/* .what-we-do {
   padding-bottom: 120px;
 }
 
@@ -355,7 +355,7 @@ body {
 
 .what-we-do-list-item {
   width: calc((100% - 48px) / 3);
-}
+} */
 
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -1686,7 +1686,7 @@ body {
 
   .section-team {
     background-color: var(--color-cloud);
-    padding: 120px 0;
+    padding: 120px 0 120px 0;
   }
 
   .list-item {
@@ -1820,6 +1820,7 @@ body {
   }
 
   .what-we-do {
+    display: block;
     padding-bottom: 120px;
   }
 
@@ -1884,6 +1885,7 @@ body {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    margin: 0px;
   }
 
   .employee-container {

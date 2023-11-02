@@ -1316,6 +1316,10 @@ body {
     letter-spacing: 1.12px;
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
   .container-txt {
     /* max-width: 496px; */
     margin: 121px 136px 204px;
@@ -1385,9 +1389,12 @@ body {
   }
 
   .section-team-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     align-items: center;
+    column-gap: 24px;
+    row-gap: 64px;
   }
 
   .section-team-list-item {

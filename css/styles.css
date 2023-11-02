@@ -1436,13 +1436,13 @@ body {
   }
 
   .footer-section {
-    text-align: center;
+    padding: 97.5px 164px 96px 108px;
   }
 
   .logo-n-paragraph {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    text-align: left;
     margin-right: 0px;
   }
 
@@ -1452,10 +1452,14 @@ body {
   }
 
   .footer-flex {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
     align-items: center;
     flex-direction: column;
+    column-gap: 24px;
+    row-gap: 72px;
   }
 
   .container-social-media {
@@ -1464,9 +1468,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 72px;
-    margin-bottom: 72px;
+    text-align: left;
   }
 
   .social-media-footer {
@@ -1482,14 +1484,15 @@ body {
 
   .subscribe-form {
     display: flex;
-    flex-wrap: wrap;
     row-gap: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .subscribe-input {
-    width: 398px;
+    width: 264px;
+    margin-right: 24px;
+  }
+  .btn-submit-tab {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
   }
 }

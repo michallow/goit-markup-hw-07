@@ -1498,111 +1498,32 @@ body {
 
 /* ================================================= DESKTOP 👇 ========================================= */
 @media screen and (min-width: 1158px) {
-  /* body {
-    min-width: 1440px;
-  } */
-
-  img {
-    display: block;
-  }
-
-  body {
-    font-family: "Roboto", sans-serif;
-    color: var(--color-slate);
-    background-color: var(--color-white);
-  }
-
-  .list {
-    list-style: none;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
-  }
-
-  .link {
-    text-decoration: none;
-    color: var(--color-navy-blue);
-  }
-
   .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-iris);
-    text-decoration: none;
     margin-right: 76px;
   }
 
-  .link:hover {
-    color: var(--color-ocean);
-  }
-
-  .link:focus {
-    color: var(--color-ocean);
-  }
-
-  .logo-studio {
-    color: var(--color-navy-blue);
-  }
-
   .address {
-    color: var(--color-slate);
-    font-style: normal;
-    font-weight: 400;
-    display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .list-address {
     display: flex;
     flex-direction: row;
-    gap: 40px;
     list-style: none;
     color: var(--color-slate);
-    font-style: normal;
     list-style: none;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    /* padding-left: 332px; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
     padding: 24px 0 24px 0px;
-  }
-
-  .logo-footer {
-    color: var(--color-cloud);
   }
 
   .logo-n-paragraph {
     margin-right: 120px;
     max-width: 264px;
     max-height: 72px;
-  }
-
-  .paragraph-footer {
-    line-height: 1.5;
-    color: var(--color-cloud);
-    letter-spacing: 0.02em;
-    min-width: 264px;
-  }
-
-  .tag-line {
-    background-color: var(--color-navy-blue);
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/background-office.jpg);
-    padding: 188px 0;
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
   }
 
   .tag-line-header {

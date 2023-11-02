@@ -943,14 +943,6 @@ body {
 /* ================================================= MOBILE 👇 ========================================= */
 
 @media (max-width: 767px) {
-  body {
-    max-width: 428px;
-  }
-
-  .navigation-bar {
-    max-width: 428px;
-  }
-
   .navigation-bar-container {
     width: 100%;
     height: 70px;

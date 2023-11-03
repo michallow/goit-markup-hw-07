@@ -23,7 +23,11 @@
 }
 
 img {
-  display: block;
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 body {
@@ -101,13 +105,51 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/background-office.jpg);
-  padding: 188px 0;
+    url(../images/bg-desk.png);
+  /* padding: 188px 0; */
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .tag-line {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-mob.png);
+  }
+}
+
+@media (min-width: 768px) {
+  .tag-line {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-tab.png);
+  }
+}
+
+@media (mmin-width: 1158px) {
+  .tag-line {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-desk.png);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(../images/bg-desk@2x.png);
+  }
 }
 
 .tag-line-header {
@@ -1074,6 +1116,9 @@ body {
     background-color: var(--color-iris);
   }
 
+  .tag-line {
+    padding: 112px 54px 240px;
+  }
   .tag-line-header {
     font-size: 36px;
     line-height: 40px;
@@ -1298,8 +1343,9 @@ body {
   }
 
   .tag-line {
+    padding: 168px auto 292px;
     width: auto;
-    height: 436px;
+    height: 600px;
     display: flex;
     align-items: center;
   }
@@ -1314,11 +1360,6 @@ body {
 
   .mobile-menu {
     display: none;
-  }
-
-  .container-txt {
-    margin: 121px 136px 204px;
-    padding: 0;
   }
 
   .container {

@@ -1046,11 +1046,6 @@ body {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .menu-link-mobile:hover,
-  .current {
-    color: var(--color-ocean);
-  }
-
   .address {
     display: none;
   }
@@ -1113,25 +1108,24 @@ body {
     width: 100%;
     border-radius: 50%;
     display: flex;
-    background-color: var(--color-iris);
   }
 
   .tag-line {
     padding: 112px 54px 240px;
+    height: 432px;
+    width: auto;
   }
+
   .tag-line-header {
     font-size: 36px;
     line-height: 40px;
     display: block;
     margin: 0;
     padding-bottom: 72px;
-    /* max-height: 432px; */
   }
 
   .container-txt {
-    /* max-width: 428px; */
-    margin: 0;
-    padding: 0;
+    max-width: 320px;
   }
 
   .container {
@@ -1345,9 +1339,10 @@ body {
   .tag-line {
     padding: 168px auto 292px;
     width: auto;
-    height: 600px;
+    height: 436px;
     display: flex;
     align-items: center;
+    align-content: center;
   }
 
   .tag-line-header {
@@ -1368,10 +1363,15 @@ body {
     padding: 0;
   }
 
+  .container-txt {
+    max-width: 496px;
+  }
+
   .values-section {
     padding: 96px 0;
     display: flex;
     margin: 0 16px;
+    justify-content: center;
   }
 
   .values-main-list {
@@ -1425,17 +1425,16 @@ body {
   }
 
   .section-team-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     column-gap: 24px;
     row-gap: 64px;
+    margin-bottom: 96px;
   }
 
   .section-team-list-item {
     width: 264px;
-    margin-bottom: 72px;
   }
 
   .employee-container {
@@ -1472,7 +1471,9 @@ body {
   }
 
   .footer-section {
-    padding: 97.5px 164px 96px 108px;
+    /* padding: 97.5px 164px 96px 108px; */
+    display: flex;
+    justify-content: center;
   }
 
   .logo-n-paragraph {
@@ -1556,6 +1557,27 @@ body {
     margin-right: 120px;
     max-width: 264px;
     max-height: 72px;
+  }
+
+  .tag-line {
+    padding: 188px auto 292px;
+    width: auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+  .tag-line-header {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+  }
+
+  .container-txt {
+    max-width: 496px;
   }
 
   .goals {
@@ -1726,12 +1748,6 @@ body {
     padding: 32px 16px;
     border: 1px solid var(--color-cornflower);
     border-top: none;
-  }
-
-  .container-txt {
-    width: 496px;
-    margin: 0 auto;
-    padding: 0;
   }
 
   .header-shadow {

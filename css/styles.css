@@ -101,6 +101,19 @@ body {
 
 .tag-line {
   background-color: var(--color-navy-blue);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(46, 47, 66, 0.7)),
+      to(rgba(46, 47, 66, 0.7))
+    ),
+    url("../images/bg-desk.png");
+  background-image: -o-linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/bg-desk.png");
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -115,12 +128,24 @@ body {
 }
 
 @media /* RETINA */ only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min--moz-device-pixel-ratio: 2),
   only screen and (min-device-pixel-ratio: 2),
-  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .tag-line {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(46, 47, 66, 0.7)),
+        to(rgba(46, 47, 66, 0.7))
+      ),
+      url(../images/bg-desk-x2@2x.png);
+    background-image: -o-linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-desk-x2@2x.png);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)

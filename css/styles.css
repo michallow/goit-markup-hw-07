@@ -131,7 +131,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/bg-mob-x2.png);
+        url(../images/bg-mob-x2@2x.png);
     }
   }
 }
@@ -151,7 +151,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/bg-tab-x2.png);
+        url(../images/bg-tab-x2@2x.png);
     }
   }
 }
@@ -171,7 +171,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/bg-desk-x2.png);
+        url(../images/bg-desk-x2@2x.png);
     }
   }
 }

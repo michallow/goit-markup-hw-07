@@ -140,17 +140,17 @@ body {
         from(rgba(46, 47, 66, 0.7)),
         to(rgba(46, 47, 66, 0.7))
       ),
-      url(../images/bg-desk-x2@2x.png);
+      url(../images/bg-desk@2x.png);
     background-image: -o-linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bg-desk-x2@2x.png);
+      url(../images/bg-desk@2x.png);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bg-desk-x2@2x.png);
+      url(../images/bg-desk@2x.png);
   }
 }
 

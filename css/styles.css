@@ -154,75 +154,12 @@ body {
   }
 }
 
-/* @media (max-width: 767px) {
-  .tag-line {
-    width: 428px;
-    height: 432px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/bg-mob.png);
-  }
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .tag-line {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/bg-mob-x2@2x.png);
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .tag-line {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/bg-tab.png);
-  }
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .tag-line {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/bg-tab-x2@2x.png);
-    }
-  }
-}
-
-@media (min-width: 1158px) {
-  .tag-line {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/bg-desk.png);
-  }
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .tag-line {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/bg-desk-x2@2x.png);
-    }
-  }
-} */
-
 .tag-line-header {
   color: var(--color-white);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  /* max-width: 496px; */
   display: block;
   margin: 0 auto;
   padding-bottom: 48px;
@@ -1172,6 +1109,7 @@ body {
     width: 100%;
     border-radius: 50%;
     display: flex;
+    background-color: var(--color-iris);
   }
 
   .tag-line {

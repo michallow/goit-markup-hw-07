@@ -1292,6 +1292,28 @@ body {
   .btn-submit {
     width: 165px;
   }
+
+  .portfolio-all {
+    padding-top: 48px;
+  }
+
+  .portfolio-list {
+    margin-bottom: 48px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 16px 24px;
+  }
+
+  .portfolio-miniatures {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-miniatures-item {
+    width: auto;
+  }
 }
 
 /* ================================================= TABLET 👇 ========================================= */

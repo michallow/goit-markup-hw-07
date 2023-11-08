@@ -1559,6 +1559,22 @@ body {
   .btn-submit-tab {
     align-self: end;
   }
+
+  .portfolio-all {
+    padding-top: 64px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portoflio-list {
+    margin-bottom: 64px;
+  }
+
+  .portfolio-miniatures-item {
+    width: calc((100% - 48px) / 2);
+  }
 }
 
 /* ================================================= DESKTOP 👇 ========================================= */

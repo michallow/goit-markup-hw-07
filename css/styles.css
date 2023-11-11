@@ -1328,10 +1328,11 @@ body {
   .portfolio-miniatures {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .portfolio-miniatures-item {
-    width: auto;
+    width: 360px;
   }
 }
 

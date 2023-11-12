@@ -520,6 +520,10 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
+.portfolio-media-img {
+  width: 360px;
+}
+
 .portfolio-img-n-desc {
   padding: 32px 16px;
   border: 1px solid var(--color-cornflower);
@@ -1332,7 +1336,16 @@ body {
   }
 
   .portfolio-miniatures-item {
-    width: 360px;
+    width: 396px;
+  }
+
+  .portfolio-media-img {
+    width: 396px;
+    height: 290px;
+  }
+
+  .app-image-caption {
+    top: 0;
   }
 }
 
